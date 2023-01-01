@@ -28,7 +28,7 @@ function App() {
   makeSnowFlake();
 
   for (let index = 0; index < 50; index++) {
-    setTimeout(makeSnowFlake, 500 * index);
+    setInterval(makeSnowFlake, 500 * index);
   }
   return (
     <BrowserRouter>
