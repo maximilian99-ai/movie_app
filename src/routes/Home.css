@@ -26,6 +26,10 @@ html, body, #potato, .container {
   font-weight: 300;
 }
 
+.loader__text {
+  color: white;
+}
+
 .movies {
   display: flex;
   justify-content: space-between;
