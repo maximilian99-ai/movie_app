@@ -39,3 +39,9 @@ html, body, #potato, .container {
   padding-top: 70px;
   width: 80%;
 }
+
+@media screen and (max-width: 766px) {
+  * {
+    box-sizing: content-box;
+  }
+}

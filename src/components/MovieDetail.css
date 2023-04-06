@@ -12,91 +12,6 @@
     box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
       0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
   }
-
-  @media screen and (min-width: 1024px) and (max-width: 1365px) {
-    .movies .movie {
-      width: 60%;
-      background-color: white;
-      margin-bottom: 70px;
-      display: flex;
-      align-items: flex-start;
-      justify-content: space-between;
-      font-weight: 300;
-      padding: 20px;
-      border-radius: 5px;
-      color: #b2b3bc;
-      box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
-        0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
-    }
-  }
-
-  @media screen and (min-width: 768px) and (max-width: 1023px) {
-    .movies .movie {
-      width: 100%;
-      background-color: white;
-      margin-bottom: 70px;
-      display: flex;
-      align-items: flex-start;
-      justify-content: space-between;
-      font-weight: 300;
-      padding: 20px;
-      border-radius: 5px;
-      color: #b2b3bc;
-      box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
-        0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
-    }
-  }
-
-  @media screen and (min-width: 451px) and (max-width: 767px) {
-    .movies .movie {
-      width: 150%;
-      background-color: white;
-      margin-bottom: 70px;
-      display: flex;
-      align-items: flex-start;
-      justify-content: space-between;
-      font-weight: 300;
-      padding: 20px;
-      border-radius: 5px;
-      color: #b2b3bc;
-      box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
-        0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
-    }
-  }
-
-  @media screen and (min-width: 375px) and (max-width: 450px) {
-    .movies .movie {
-      width: 200%;
-      background-color: white;
-      margin-bottom: 70px;
-      display: flex;
-      align-items: flex-start;
-      justify-content: space-between;
-      font-weight: 300;
-      padding: 20px;
-      border-radius: 5px;
-      color: #b2b3bc;
-      box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
-        0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
-    }
-  }
-
-  @media screen and (max-width: 374px) {
-    .movies .movie {
-      width: 300%;
-      background-color: white;
-      margin-bottom: 70px;
-      display: flex;
-      align-items: flex-start;
-      justify-content: space-between;
-      font-weight: 300;
-      padding: 20px;
-      border-radius: 5px;
-      color: #b2b3bc;
-      box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
-        0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
-    }
-  }
   
   .movies img {
     position: relative;
@@ -130,4 +45,56 @@
   .movie__genres li {
     margin-right: 10px;
     font-size: 14px;
+  }
+
+  @media screen and (min-width: 1023px) and (max-width: 1364px) {
+    .movies .movie {
+      width: 60%;
+      background-color: white;
+      margin-bottom: 70px;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      font-weight: 300;
+      padding: 20px;
+      border-radius: 5px;
+      color: #b2b3bc;
+      box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+        0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+    }
+  }
+
+  @media screen and (min-width: 767px) and (max-width: 1022px) {
+    .movies .movie {
+      width: 100%;
+      background-color: white;
+      margin-bottom: 70px;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      font-weight: 300;
+      padding: 20px;
+      border-radius: 5px;
+      color: #b2b3bc;
+      box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+        0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+    }
+  }
+
+  @media screen and (max-width: 766px) {
+    .movies .movie {
+      width: 100%;
+      height: fit-content;
+      background-color: white;
+      margin-bottom: 70px;
+      display: grid;
+      align-items: flex-start;
+      justify-content: space-between;
+      font-weight: 300;
+      padding: 20px;
+      border-radius: 5px;
+      color: #b2b3bc;
+      box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+        0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+    }
   }
